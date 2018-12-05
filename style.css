@@ -1,0 +1,481 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+
+
+#section1{
+   background-image: url('first.svg');
+    /* Full height */
+    height: 100%;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+ }
+
+ #section2: {
+    background-image: url('ciel.jpg');
+	opacity:.2
+    /* Full height */
+    height: 100%;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	/*background: #F8F8FF;*/
+  }
+
+  #section3 {
+      background-image: url('ciel.jpg');
+    /* Full height */
+    height: 100%;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	/*background: #F8F8FF;*/
+   }
+
+   #section4 {
+       background-image: url('ciel.jpg');
+    /* Full height */
+    height: 100%;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	/*background: #F8F8FF;*/
+    }
+
+    #section5 {
+        background-image: url('ciel.jpg');
+    /* Full height */
+    height: 100%;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	/*background: #F8F8FF;*/
+     }
+     #section6 {
+         background-image: url('ciel.jpg');
+    /* Full height */
+    height: 100%;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	/*background: #F8F8FF;*/
+      }
+      #section7 {
+          background-image: url('ciel.jpg');
+			/* Full height */
+			height: 100%;
+			/* Center and scale the image nicely */
+			background-position: center;
+			background-repeat: no-repeat;
+			background-size: cover;
+			/*background: #F8F8FF;*/
+       }
+       #section8 {
+           background-image: url('ciel.jpg');
+			/* Full height */
+			height: 100%;
+			/* Center and scale the image nicely */
+			background-position: center;
+			background-repeat: no-repeat;
+			background-size: cover;
+			/*background: #F8F8FF;*/
+        }
+        #section9 {
+            background-image: url('ciel.jpg');
+			/* Full height */
+			height: 100%;
+			/* Center and scale the image nicely */
+			background-position: center;
+			background-repeat: no-repeat;
+			background-size: cover;
+			/*background: #F8F8FF;*/
+         }
+         #section10{
+             background-image: url('ciel.jpg');
+			/* Full height */
+			height: 100%;
+			/* Center and scale the image nicely */
+			background-position: center;
+			background-repeat: no-repeat;
+			background-size: cover;
+			/*background: #F8F8FF;*/
+          }
+		  #section11 {
+             background-image: url('ciel.jpg');
+			/* Full height */
+			height: 100%;
+			/* Center and scale the image nicely */
+			background-position: center;
+			background-repeat: no-repeat;
+			background-size: cover;
+			/*background: #F8F8FF;*/
+          }
+		  #section12 {
+             background-image: url('ciel.jpg');
+			/* Full height */
+			height: 100%;
+			/* Center and scale the image nicely */
+			background-position: center;
+			background-repeat: no-repeat;
+			background-size: cover;
+			/*background: #F8F8FF;*/
+          }
+		  #section13 {
+             background-image: url('ciel.jpg');
+			/* Full height */
+			height: 100%;
+			/* Center and scale the image nicely */
+			background-position: center;
+			background-repeat: no-repeat;
+			background-size: cover;
+			/*background: #F8F8FF;*/
+          }
+		  #section14 {
+             background-image: url('ciel.jpg');
+			/* Full height */
+			height: 100%;
+			/* Center and scale the image nicely */
+			background-position: center;
+			background-repeat: no-repeat;
+			background-size: cover;
+			/*background: #F8F8FF;*/
+          }
+		  #section15 {
+             background-image: url('ciel.jpg');
+			/* Full height */
+			height: 100%;
+			/* Center and scale the image nicely */
+			background-position: center;
+			background-repeat: no-repeat;
+			background-size: cover;
+			/*background: #F8F8FF;*/
+          }
+		  #section16 {
+             background-image: url('ciel.jpg');
+			/* Full height */
+			height: 100%;
+			/* Center and scale the image nicely */
+			background-position: center;
+			background-repeat: no-repeat;
+			background-size: cover;
+			/*background: #F8F8FF;*/
+          }
+
+.first1 {
+  margin-top: 120px;
+  padding: 0;
+  padding-left: 20%;
+  padding-right: 20%;
+  text-align: center;
+  font-size : 4em;
+  text-transform: uppercase;
+  font-family: 'Oxygen';
+  opacity: 1;
+  color: #0b5394;
+}
+
+.title {
+  margin: 0;
+  padding-top: 3%;
+  padding-bottom: 1%;
+  text-align: center;
+  font-family: Avenir;
+  font-size: 2.2em;
+  color: #0b5394;
+  text-transform: uppercase;
+}
+
+.sub-title {
+  margin: 0;
+  padding-top: 2%;
+  padding-bottom: 1%;
+  text-align: center;
+  font-family: Avenir;
+  font-size: 1.8em;
+  color: #0b5394;
+}
+
+.container {
+    width: 90%;
+    height: 80%;
+    margin: auto;
+    padding: 5px;
+	overflow: auto;
+}
+.one {
+    width: 40%;
+    float: left;
+}
+.two {
+    margin-left: 45%;
+    
+}
+
+.sub-img {
+
+	width: 53%;
+	display: block;
+	margin-right: auto;
+	  margin-left: auto;
+	  /*background-color: #f2f2f2;*/
+	  padding-top: 5px;
+	  padding-bottom: 5px;
+	  /*border-radius: 25px;*/
+	  /*opacity: 0.8;*/
+	  overflow: auto;
+
+}
+
+.container2 {
+    width: 90%;
+    height: 50%;
+    margin: auto;
+    padding: 5px;
+	overflow: auto;
+}
+
+.description {
+  margin-right: 5%;
+  margin-left: 5%;
+  /*background-color: #f2f2f2;*/
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  /*border-radius: 25px;*/
+  /*opacity: 0.8;*/
+  overflow: auto;
+  /*width: 30%;*/
+  text-align: center;
+  font-family: Avenir;
+  font-size: 1.2em;
+  
+}
+
+.description2 {
+  
+  margin-right: 15%;
+  margin-left: 15%;
+  margin-bottom: 2%;
+  /*background-color: #f2f2f2;*/
+  padding-top: 4px;
+  padding-bottom: 4px;
+  /*border-radius: 25px;*/
+  /*opacity: 0.8;*/
+  overflow: auto;
+  /*width: 30%;*/
+  text-align: justify;
+  font-family: Avenir;
+  font-size: 1.2em;
+  
+}
+
+.description3 {
+  
+  margin-right: 5%;
+  margin-left: 5%;
+  margin-bottom: 3%;
+  /*background-color: #f2f2f2;*/
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  /*border-radius: 25px;*/
+  /*opacity: 0.8;*/
+  overflow: auto;
+  /*width: 30%;*/
+  text-align: center;
+  font-family: Avenir;
+  font-size: 1.3em;
+  
+}
+
+.graph{
+	width:70%;
+	margin-left: 15%;
+	margin-bottom: 5%;
+	margin-right: 15%;
+
+	box-shadow: 5px 5px 5px rgba(0,0,0,.5);
+}
+
+.graph2{
+	width:70%;
+	margin-left: 15%;
+	margin-bottom: 1%;
+	margin-right: 15%;
+
+	box-shadow: 5px 5px 5px rgba(0,0,0,.5);
+}
+
+.map{
+	width:50%;
+	height: auto;
+	float: left;
+}
+.map2{
+	width:50%;
+	height: auto;
+	display: block;
+	vertical-align: middle;
+
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 40px;
+	vertical-align: middle;
+}
+
+.column2 {
+    float: left;
+    width: 50%;
+	padding-top: 0;
+    padding-left: 5px;
+	padding-right: 5px;
+	padding-bottom: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.moy{
+	width:30%;
+	height: auto;
+	float: left;
+	margin-right:5%;
+	margin-left: 5%;
+
+}
+
+.moy2{
+	width:44%;
+	height: auto;
+	margin-left:5%;
+	margin-right: 5%;
+
+}
+
+
+.tableauPlaceholder {
+  margin:0;
+  padding:0;
+}
+
+.placeholders{
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-top: 5%;
+
+}
+
+.evolution {
+  width: 50%;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 5%;
+  display: block;
+}
+
+.schema {
+  width: auto;
+  height: 40%;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.tableauPlaceholder2 {
+  margin: 5%;
+  height: 100%;
+  float: left;
+}
+
+.box {
+  width: 80%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0;
+  background: #FFFFFF;
+  min-height: 200px;
+  box-shadow: 0 5px 10px rgba(0,0,0,.5);
+}
+
+
+
+.box ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  background: #fff;
+}
+
+.box ul li {
+  margin: 0;
+  padding: 5px;
+  width: 25%;
+  box-sizing: border-box;
+  text-align: center;
+  list-style: none;
+  cursor: pointer;
+}
+
+.box ul li h4 {
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+  color: #262626;
+}
+
+.box ul li.active {
+  color: #241E5B;
+}
+
+.box ul li.active h4 {
+  color: #ba2a3d;
+}
+
+.hide {
+  display: none;
+}
+
+.active {
+  display: block;
+}
+
+.content{
+	height: 360px;
+  padding: 0;
+  margin: 0;
+  background-color: #fff;
+}
+.content2{
+	height: 350px;
+	width: 400px;
+  padding: 0;
+  margin: 0;
+  background-color: #fff;
+}
+.tableauPlaceholdertab {
+  margin: 0;
+
+}
