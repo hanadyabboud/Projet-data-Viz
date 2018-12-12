@@ -7,7 +7,7 @@ body {
 @font-face {
 
   font-family: AvenirLTStd-Book;
-  src: url('AvenirLTStd-Book.otf') format("opentype");
+  src: url(AvenirLTStd-Book.otf) format("opentype");
 
 }
 
