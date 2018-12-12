@@ -16,7 +16,7 @@ body {
     background-size: cover;
  }
 
- #section2: {
+ #section2 {
     background-image: url('ciel.JPG');
 	opacity:.2
     /* Full height */
@@ -218,7 +218,7 @@ body {
 }
 .two {
     margin-left: 45%;
-    
+
 }
 
 .sub-img {
@@ -259,11 +259,11 @@ body {
   text-align: center;
   font-family: 'Avenir';
   font-size: 1.2em;
-  
+
 }
 
 .description2 {
-  
+
   margin-right: 15%;
   margin-left: 15%;
   margin-bottom: 2%;
@@ -277,11 +277,11 @@ body {
   text-align: justify;
   font-family: 'Avenir';
   font-size: 1.2em;
-  
+
 }
 
 .description3 {
-  
+
   margin-right: 5%;
   margin-left: 5%;
   margin-bottom: 3%;
@@ -297,7 +297,7 @@ body {
   text-align: center;
   font-family: 'Avenir';
   font-size: 1.3em;
-  
+
 }
 
 .graph{
