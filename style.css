@@ -201,7 +201,8 @@ body {
   padding-top: 2%;
   padding-bottom: 1%;
   text-align: center;
-  font-family: 'Avenir';
+  font-family: 'AvenirLTStd-Book';
+  src: url("/AvenirLTStd-Book.otf") format("opentype");
   font-size: 1.8em;
   color: #0b5394;
 }
@@ -258,7 +259,8 @@ body {
   overflow: auto;
   /*width: 30%;*/
   text-align: center;
-  font-family: 'Avenir';
+  font-family: 'AvenirLTStd-Book';
+  src: url("/AvenirLTStd-Book.otf") format("opentype");
   font-size: 1.2em;
   
 }
@@ -276,7 +278,8 @@ body {
   overflow: auto;
   /*width: 30%;*/
   text-align: justify;
-  font-family: 'Avenir';
+  font-family: 'AvenirLTStd-Book';
+  src: url("/AvenirLTStd-Book.otf") format("opentype");
   font-size: 1.2em;
   
 }
@@ -296,7 +299,8 @@ body {
   overflow: auto;
   /*width: 30%;*/
   text-align: center;
-  font-family: 'Avenir';
+  font-family: 'AvenirLTStd-Book';
+  src: url("/AvenirLTStd-Book.otf") format("opentype");
   font-size: 1.3em;
   
 }
