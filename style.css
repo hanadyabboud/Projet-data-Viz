@@ -190,7 +190,7 @@ body {
   padding-bottom: 1%;
   text-align: center;
   font-family: 'AvenirLTStd-Book';
-  src: url("/AvenirLTStd-Book.otf") format("opentype");
+  src: url("AvenirLTStd-Book.otf") format("opentype");
   font-size: 2.2em;
   color: #0b5394;
   text-transform: uppercase;
@@ -202,7 +202,7 @@ body {
   padding-bottom: 1%;
   text-align: center;
   font-family: 'AvenirLTStd-Book';
-  src: url("/AvenirLTStd-Book.otf") format("opentype");
+  src: url("AvenirLTStd-Book.otf") format("opentype");
   font-size: 1.8em;
   color: #0b5394;
 }
@@ -260,7 +260,7 @@ body {
   /*width: 30%;*/
   text-align: center;
   font-family: 'AvenirLTStd-Book';
-  src: url("/AvenirLTStd-Book.otf") format("opentype");
+  src: url("AvenirLTStd-Book.otf") format("opentype");
   font-size: 1.2em;
   
 }
@@ -279,7 +279,7 @@ body {
   /*width: 30%;*/
   text-align: justify;
   font-family: 'AvenirLTStd-Book';
-  src: url("/AvenirLTStd-Book.otf") format("opentype");
+  src: url("AvenirLTStd-Book.otf") format("opentype");
   font-size: 1.2em;
   
 }
@@ -300,7 +300,7 @@ body {
   /*width: 30%;*/
   text-align: center;
   font-family: 'AvenirLTStd-Book';
-  src: url("/AvenirLTStd-Book.otf") format("opentype");
+  src: url("AvenirLTStd-Book.otf") format("opentype");
   font-size: 1.3em;
   
 }
