@@ -363,6 +363,11 @@ body {
     display: table;
 }
 
+.row-center {
+	display: flex;
+	align-items: center;
+}
+
 .moy{
 	width:30%;
 	height: auto;
