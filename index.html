@@ -7,9 +7,9 @@
       <title>La voiture à Paris</title>
       <link rel="stylesheet" href="style.css">
       <link rel="stylesheet" href="fullpage.css">
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" 
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
               integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" 
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
               integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 
       <script src="fullpage.js"></script>
@@ -53,7 +53,7 @@
                      on constate effectivement que l’usage de la voiture est à la marge de celui des transports en communs.
                      Avec le taux d’équipement le plus faible de France (<font color="green"><b>37,6%</b></font> contre <font color="blue"><b>86%</b></font> en Pays de la Loire), uniquement 13% de Parisiens se rendent au travail en voiture. <br><br>
                      Dans une ville qui laisse de plus en plus de place aux autres modes de transport, il semble légitime de se poser la question de l’avenir de la voiture à Paris.
-                     Et pour mieux l’anticiper, nous proposons de nous intéresser à son évolution sur les dernières années, tout en y intégrant la notion de la pollution de l’air. 
+                     Et pour mieux l’anticiper, nous proposons de nous intéresser à son évolution sur les dernières années, tout en y intégrant la notion de la pollution de l’air.
                      En effet, n’oublions pas que la pollution entraîne en France 48 000 décès par an.
                      <br><br>
 
@@ -68,7 +68,7 @@
          </section>
          <section class="section" id="section3">
             <h1 class="title">MOINS DE VOITURES CIRCULENT A PARIS EN 2017 QU’EN 2014</h1>
-            <p class="description2">Après une augmentation continue du débit routier depuis 2013, celui-ci chute brutalement en 2017. 
+            <p class="description2">Après une augmentation continue du débit routier depuis 2013, celui-ci chute brutalement en 2017.
             Les voies sur berge ont été officiellement rendue piétonnes cette même année. Faut-il y voir une causalité par effet de découragement ?
 
             </p>
@@ -94,17 +94,14 @@
   "description": " Un trafic en fonction des annees ",
   "width": 500,
   "data": {
-    "values": [
-      {"year": "2013","taux": 6.5}, {"year": "2014","taux": 6.6}, {"year": "2015","taux": 6.7},
-      {"year": "2016","taux": 7}, {"year": "2017","taux": 6.8}
-    ]
+    "url": "densite_traffic_paris - Sheet1.csv"
   },
   "mark": "line",
   "encoding": {
-    "x": {"field": "year", "type": "ordinal"},
-    "y": {"field": "taux", "type": "quantitative", "scale":{"domain": [6.3,7.5]}},
+    "x": {"field": "Année", "type": "ordinal"},
+    "y": {"field": "Moyenne taux", "type": "quantitative", "scale":{"domain": [6.3,7.5]}},
     "color": {"value" : "#0b5394"},
-    "tooltip": {"field": "taux", "type": "quantitative"}
+    "tooltip": {"field": "Moyenne taux", "type": "quantitative"}
   }
 };
 
@@ -113,8 +110,8 @@
 
 
   </script>
-               
-               
+
+
             </section>
 
                <section class="section" id="section5">
@@ -148,20 +145,20 @@
                      <div class="one">
                         <h2 class="sub-title">Dioxyde d'Azote<br>NO2</h2>
                         <p class="description2">
-                        En tant que « polluant toxique » et parce qu'il est l'un des polluants majeurs à Paris, le dioxyde d'azote fait l'objet d'un suivi obligatoire 
+                        En tant que « polluant toxique » et parce qu'il est l'un des polluants majeurs à Paris, le dioxyde d'azote fait l'objet d'un suivi obligatoire
                         par les observatoires de la pollution de l'air. En France, sa valeur limite horaire est de 200 µg/m3, fréquemment dépassée dans les grandes villes
                         et près des grands axes routiers ou aéroports en l'absence de vent ou de circulation de l'air.
                         </p>
                         <img class="sub-img" src="NO2.png" style="width:40%" >
-                     </div>	
+                     </div>
                         <div class="two">
                            <h2 class="sub-title">Particules fines <br>PM10 & PM2.5</h2>
                            <p class="description2">
-                           Outre les gaz, l'atmosphère contient des matières en suspension que l'on regroupe sous le terme général de "particules fines". 
-                           Ces poussières sont souvent issues de combustions incomplètes. 
+                           Outre les gaz, l'atmosphère contient des matières en suspension que l'on regroupe sous le terme général de "particules fines".
+                           Ces poussières sont souvent issues de combustions incomplètes.
                            <br>Les particules fines pénètrent en profondeur dans les poumons. Elles peuvent être à l’origine d’inflammations,
                            et de l’aggravation de maladies cardiaques et pulmonaires. De plus, elles peuvent transporter des composés cancérigènes
-                           absorbés sur leur surface jusque dans les poumons. 
+                           absorbés sur leur surface jusque dans les poumons.
 
                            </p>
                            <img class="sub-img" src="PM10.png" style="width:35%" >
@@ -178,7 +175,7 @@
 
                   <section class="section" id="section8">
                      <h1 class="title">Comment la qualité de l'air évolue-t-elle depuis 5 ans?</h1>
-                     <p class="description2">La pollution aux particules fines recule depuis 2013, et cela malgré l’augmentation continue du trafic routier jusqu’à 2016...  
+                     <p class="description2">La pollution aux particules fines recule depuis 2013, et cela malgré l’augmentation continue du trafic routier jusqu’à 2016...
                      Comment est-ce possible ?<br>
                      Le niveau de NO2 reste cependant très préoccupant, malgré sa légère diminution.</p>
                      <div class="box" style="width:68%">
@@ -208,9 +205,9 @@
 
                   <section class="section" id="section9">
                      <h1 class="title">D'où vient cette pollution?</h1>
-                     <p class="description2" style="margin-left:10%; margin-right:10%">En fait, les particules fines ne sont pas essentiellement générées par les moteurs, 
-                     mais par le frottement des pneus et des plaquettes de freins. Ceci explique que les axes les plus encombrés 
-                     soient les plus pollués ! En fait, ce sont les embouteillages qui provoquent plus de pollution. 
+                     <p class="description2" style="margin-left:10%; margin-right:10%">En fait, les particules fines ne sont pas essentiellement générées par les moteurs,
+                     mais par le frottement des pneus et des plaquettes de freins. Ceci explique que les axes les plus encombrés
+                     soient les plus pollués ! En fait, ce sont les embouteillages qui provoquent plus de pollution.
                      L’adoption de véhicules électriques n’est donc pas une solution miracle !
 
                      </p>
@@ -280,7 +277,7 @@
                      <div>
                         <p class="description2" style="margin-bottom:0; padding-bottom: 1px;">Dans le récent classement Greenpeace Mobilités Durables (2018), Paris se hisse à la 7ème place.
                         Loin derrière les exemples nordiques, Paris dépasse cependant Berlin et Londres. Ce classement se base sur cinq critères :
-                        <ul  style="margin-right: 15%;margin-left: 15%; margin-bottom: 1%; margin-top:0; padding-top: 1px; padding-bottom: 1px; overflow: auto; text-align: justify; 
+                        <ul  style="margin-right: 15%;margin-left: 15%; margin-bottom: 1%; margin-top:0; padding-top: 1px; padding-bottom: 1px; overflow: auto; text-align: justify;
                         font-family: Avenir;
                         font-size: 1.2em;">
                            <li>
@@ -317,9 +314,9 @@
                            <div class="column2">
                               <p class="description2">
 
-                              <br><br><br>Un des critères de ce classement est l’analyse de la mobilité des habitants de la ville.<br> 
-                              Comparée à ses voisines européennes, Paris n’est pas une si mauvaise élève puisqu’elle arrive en 4eme position 
-                              sur la qualité de son réseau de transports en commun (img 1). 40% des parisiens utilisent les transports en commun, 
+                              <br><br><br>Un des critères de ce classement est l’analyse de la mobilité des habitants de la ville.<br>
+                              Comparée à ses voisines européennes, Paris n’est pas une si mauvaise élève puisqu’elle arrive en 4eme position
+                              sur la qualité de son réseau de transports en commun (img 1). 40% des parisiens utilisent les transports en commun,
                               et le 1er moyen de transport le plus utilisé est la marche à pieds (img 2) ! <br>
                               Une statistique qui dépasse de loin toutes les villes sondées, mais qui illustre un gros retard sur l’usage du vélo (3%).
 
@@ -333,10 +330,10 @@
                   <section class="section" id="section13">
                      <h1 class="title">TRANSPORTS PUBLICS + RESTRICTION DE CIRCULATION<br>
                         L’ÉQUATION GAGNANTE ? </h1>
-                     <p class="description2">La vignette Crit’air est obligatoire dans plusieurs grandes villes depuis 2017. 
-                     Cette dernière classe les véhicules en six catégories selon leurs émissions polluantes. 
-                     Lors des pics de pollution, les véhicules diesel construits avant 2005 (Crit’air 4 et 5) se voient interdits de circulation. 
-                     Et Paris va plus loin, puisque les véhicules diesel produits avant 2001 (Crit’air 5) n’ont plus le droit d’y rouler que le week-end. 
+                     <p class="description2">La vignette Crit’air est obligatoire dans plusieurs grandes villes depuis 2017.
+                     Cette dernière classe les véhicules en six catégories selon leurs émissions polluantes.
+                     Lors des pics de pollution, les véhicules diesel construits avant 2005 (Crit’air 4 et 5) se voient interdits de circulation.
+                     Et Paris va plus loin, puisque les véhicules diesel produits avant 2001 (Crit’air 5) n’ont plus le droit d’y rouler que le week-end.
                      </p>
                      <img class="graph" src="vizz.png" style="width:55%; margin-left:22.5%; margin-right:22.5%" >
 
@@ -344,7 +341,7 @@
 
                   </section>
                      <section class="section" id="section14">
-                        <h1 class="title">QUELQUES PISTES POUR DÉBLOQUER LE TRAFIC 
+                        <h1 class="title">QUELQUES PISTES POUR DÉBLOQUER LE TRAFIC
                            <br>& PRÉSERVER NOTRE ATMOSPHÈRE ...</h1>
                         <br><br><br><br>
                         <p class="description">La Mairie de Paris envisage une disparition des voitures à essence d’ici 2030. <br> <br>
@@ -374,7 +371,7 @@
 
                      <section class="section" id="section16">
                         <h1 class="title">Qui sommes-nous?</h1>
-                        <p class="description2">Ce site a été réalisé par quatre étudiantes du master Management et Innovation Numérique à Télécom ParisTech et Sciences Po Paris: 
+                        <p class="description2">Ce site a été réalisé par quatre étudiantes du master Management et Innovation Numérique à Télécom ParisTech et Sciences Po Paris:
                         <b>Hanady Abboud, Juliette Dixmier, Claire Pétreault,</b> et <b>Joanne Saba</b>, dans le cadre d’un cours de data visualisation.
                         <br><br>
                         Nous tenons à remercier notre enseignant, <b>M. Samuel Huron</b>, qui nous a aidé dans la réalisation de ce site web.
