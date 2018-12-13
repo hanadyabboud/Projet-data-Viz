@@ -27,6 +27,10 @@
          })
       </script>
 
+      <script src="https://cdn.jsdelivr.net/npm/vega@4.3.0/build/vega.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vega-lite@3.0.0-rc10/build/vega-lite.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vega-embed@3.24.1/build/vega-embed.js"></script>
+
    </head>
 
    <body>
@@ -78,7 +82,39 @@
                <p class="description2">Contrairement aux idées reçues, le trafic routier est moins dense en 2017 qu’en 2016. La piétonnisation de certains axes n’a donc pas créé d’embouteillages supplémentaires aux moyennes des années précédentes.
 
                </p>
-               <img class="graph" src="taux.png" >
+  <!-- Container for the visualization -->
+  <div id="vis"> </div>
+
+  <script>
+
+
+  // Assign the specification to a local variable vlSpec.
+  var vlSpec = {
+  "$schema": "https://vega.github.io/schema/vega-lite/v3.json",
+  "description": " Un trafic en fonction des annees ",
+  "width": 500,
+  "data": {
+    "values": [
+      {"year": "2013","taux": 6.5}, {"year": "2014","taux": 6.6}, {"year": "2015","taux": 6.7},
+      {"year": "2016","taux": 7}, {"year": "2017","taux": 6.8}
+    ]
+  },
+  "mark": "line",
+  "encoding": {
+    "x": {"field": "year", "type": "ordinal"},
+    "y": {"field": "taux", "type": "quantitative", "scale":{"domain": [6.3,7.5]}},
+    "color": {"value" : "#0b5394"},
+    "tooltip": {"field": "taux", "type": "quantitative"}
+  }
+};
+
+  // Embed the visualization in the container with id `vis`
+  vegaEmbed("#vis", vlSpec);
+
+
+  </script>
+               
+               
             </section>
 
                <section class="section" id="section5">
